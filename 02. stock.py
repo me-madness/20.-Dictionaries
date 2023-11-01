@@ -16,7 +16,7 @@ for current_product in products_search:
     if current_product in stock_date:
         print(f"We have {stock_date[current_product]} of {current_product} left")
     else:
-        print(f"Sorry, we don't have the product")        
+        print(f"Sorry, we don\'t have the product")        
 
 # Second task from me
 
